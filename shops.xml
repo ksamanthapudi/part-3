@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE shops [<!ELEMENT shops (shop+)>
+
+<!ELEMENT shop (name, state, city) >
+
+<!ELEMENT name (#PCDATA) >
+
+<!ELEMENT state (#PCDATA) >
+
+<!ELEMENT city (#PCDATA) >
+
+<!ATTLIST shop id CDATA #REQUIRED >]>
+
+<shops>
+
+  <shop id="1">
+
+    <name>walgreens</name>
+
+    <state>florida</state>
+
+    <city>Tallahassee</city>
+
+  </shop>
+
+  <shop id="2">
+
+    <name>cvs</name>
+
+    <state>florida</state>
+
+    <city>orlando</city>
+
+  </shop>
+
+</shops>
